@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Santos Sheriff's Department</title>
+    <meta name="description"
+        content="Oficjalna strona Los Santos Sheriff's Department. Dołącz do nas i dbaj o bezpieczeństwo hrabstwa.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="logo.png" alt="LSSD Logo" class="nav-logo">
+                LSSD
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#high-command">High Command</a></li>
+                <!-- <li><a href="#employees">Pracownicy</a></li> -->
+                <li><a href="ogloszenia.html">Ogłoszenia</a></li>
+                <li><a href="rekrutacja.html" class="btn-outline">Rekrutacja</a></li>
+                <li><a href="https://discord.gg/PR4gVzmcQb" target="_blank" class="btn-discord">Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <img src="logo.png" alt="" class="hero-watermark">
+        <div class="hero-content fade-in">
+            <h1>Los Santos Sheriff's Department</h1>
+            <p>Tradycja. Honor. Zaangażowanie.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-secondary">Dowiedz się więcej</a>
+                <a href="rekrutacja.html" class="btn btn-primary">Dołącz do nas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section dark-bg">
+        <div class="container fade-in">
+            <h2 class="section-title">Nasza Misja</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Los Santos Sheriff's Department to elitarna jednostka policyjna, której głównym celem jest
+                        ochrona życia i mienia mieszkańców hrabstwa Los Santos. Od lat z dumą pełnimy naszą służbę,
+                        stawiając na nowoczesne rozwiązania, świetne wyszkolenie oraz nienaganną dyscyplinę.</p>
+                    <p>Nasze jurysdykcje obejmują najtrudniejsze i najrozleglejsze tereny stanu, a my każdego dnia dbamy
+                        o to, by obywatele mogli czuć się bezpiecznie. Służba u nas to nie tylko praca, to powołanie i
+                        styl życia.</p>
+                </div>
+                <div class="about-image">
+                    <img src="logo.png" alt="LSSD Logo" class="about-logo fade-in">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High Command Section -->
+    <section id="high-command" class="section darker-bg">
+        <div class="container fade-in">
+            <h2 class="section-title">High Command</h2>
+            <p class="section-subtitle">Dowództwo departamentu</p>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Sheriff</h3>
+                        <p class="name">Charlie Beck</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Undersheriff</h3>
+                        <p class="name">Vacat</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Assistant Sheriff</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roster-grid-centered">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Deputy Chief</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Deputy Chief Assistant</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Employees Section -->
+    <!-- <section id="employees" class="section dark-bg">
+        <div class="container fade-in">
+            <h2 class="section-title">Nasi Pracownicy</h2>
+            <p class="section-subtitle">Dumni zastępcy strzegący prawa</p>
+
+            <h3 class="rank-title">Captain I / II / III</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Captain</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="rank-title">Lieutenant I / II / III</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Lieutenant</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="rank-title">Sergeant I / II / III</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Sergeant</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="rank-title">Deputy Sheriff II / III</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Deputy Sheriff</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="rank-title">Deputy Sheriff</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Deputy Sheriff</h3>
+                        <p class="name">vacat</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="rank-title">Rekrut</h3>
+            <div class="roster-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Rekrut</h3>
+                        <p class="name">Klask - 199</p><br>
+                        <p class="name">Złomek</p>
+                        <p class="name">Dylu</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- Recruitment Section -->
+    <section id="recruitment" class="section accent-bg">
+        <div class="container fade-in text-center">
+            <h2 class="section-title">Dołącz do LSSD</h2>
+            <p
+                style="color: var(--text-main); margin-bottom: 2rem; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Szukamy oddanych i odważnych kandydatów. Jeśli uważasz, że masz to, czego potrzeba, aby stać na straży
+                prawa, wypełnij podanie na naszej stronie rekrutacyjnej.
+            </p>
+            <!-- Here goes the Google Forms Link -->
+            <a href="rekrutacja.html" class="btn btn-primary mt-4">Zobacz szczegóły rekrutacji</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <a href="https://ggone.pl">GGone</a>. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

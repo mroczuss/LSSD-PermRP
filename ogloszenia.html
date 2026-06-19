@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogłoszenia - LSSD</title>
+    <meta name="description" content="Oficjalne komunikaty i ogłoszenia Los Santos Sheriff's Department.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="LSSD Logo" class="nav-logo">
+                LSSD
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Strona Główna</a></li>
+                <li><a href="index.html#about">O nas</a></li>
+                <li><a href="index.html#high-command">High Command</a></li>
+                <!-- <li><a href="index.html#employees">Pracownicy</a></li> -->
+                <li><a href="ogloszenia.html" style="color: #fff; font-weight: 700;">Ogłoszenia</a></li>
+                <li><a href="rekrutacja.html" class="btn-outline">Rekrutacja</a></li>
+                <li><a href="https://discord.gg/PR4gVzmcQb" target="_blank" class="btn-discord">Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sekcja Ogłoszeń -->
+    <section class="section dark-bg" style="min-height: 100vh; padding-top: 140px; padding-bottom: 80px;">
+        <div class="container fade-in">
+            <h1 class="section-title">Ogłoszenia LSSD</h1>
+            <p class="section-subtitle">Bieżące informacje, rozkazy i komunikaty departamentu</p>
+
+            <div class="announcement-container">
+
+                <!-- 
+                ========================================================================
+                SZABLON DLA NOWEGO OGŁOSZENIA (INSTRUKCJA DODAWANIA)
+                ========================================================================
+                Aby dodać nowe ogłoszenie:
+                1. Skopiuj poniższy blok kodu (od <div class="announcement-card"> do kończącego </div>).
+                2. Wklej go bezpośrednio pod tym komentarzem instrukcji (będzie wtedy na samej górze).
+                3. Zmień datę, klasę tagu (kategorii), tytuł, treść w akapitach <p> oraz autora.
+                ========================================================================
+                
+                <div class="announcement-card">
+                    <div class="announcement-header">
+                        <span class="announcement-date">WPISZ_DATĘ (np. 19.06.2026)</span>
+                        
+                        Dostępne klasy tagów / kolorów:
+                             - tag-important (Złoty / Ważne)
+                             - tag-tactical (Zielony / Taktyczne)
+                             - tag-general (Szary / Ogólne)
+                        <span class="announcement-tag tag-important">WPISZ_KATEGORIĘ (np. Ważne)</span>
+                    </div>
+                    <h2 class="announcement-title">WPISZ_TYTUŁ_OGŁOSZENIA</h2>
+                    <div class="announcement-content">
+                        <p>WPISZ_TREŚĆ_OGŁOSZENIA. Jeśli potrzebujesz nowej linijki / akapitu, 
+                           zamknij ten tekst i otwórz kolejny blok p (tak jak ten).</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span>Opublikował: </span>
+                        <span class="announcement-author">WPISZ_AUTORA (np. Sheriff Charlie Beck)</span>
+                    </div>
+                </div>
+                ========================================================================
+                -->
+
+                <!-- Ogłoszenie 1 -->
+                <div class="announcement-card">
+                    <div class="announcement-header">
+                        <span class="announcement-date">19.06.2026</span>
+                        <span class="announcement-tag tag-important">Ważne</span>
+                    </div>
+                    <h2 class="announcement-title">Rozpoczęcie Procesu Rekrutacji</h2>
+                    <div class="announcement-content">
+                        <p>Los Santos Sheriff's Department oficjalnie otwiera nabór dla wszystkich chętnych obywateli chcących zasilić szeregi naszego departamentu. Podania można składać za pośrednictwem dedykowanego formularza Google Forms na podstronie rekrutacyjnej.</p>
+                        <p>Przypominamy o dokładnym zapoznaniu się z wymaganiami stawianymi kandydatom oraz o rzetelnym wypełnianiu wszystkich pól wniosku. Niekompletne aplikacje będą automatycznie odrzucane.</p>
+                    </div>
+                    <div class="announcement-footer">
+                        <span>Opublikował: </span>
+                        <span class="announcement-author">201 | Sheriff Charlie Beck</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Los Santos Sheriff's Department. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
